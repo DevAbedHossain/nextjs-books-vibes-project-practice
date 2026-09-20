@@ -38,7 +38,7 @@ const Banner = () => {
 
                         {/* CTA */}
                         <Link
-                            href="/books"
+                            href={`${process.env.NEXT_PUBLIC_SERVER_BASE_URL}/books`}
                             className="inline-flex items-center gap-3 rounded-xl bg-green-600 px-7 py-4 text-base font-semibold text-white shadow-lg shadow-green-600/20 transition duration-300 hover:bg-green-700 hover:shadow-xl"
                         >
                             View The List

@@ -96,7 +96,7 @@ const BooksCard = ({ book }: BooksCardProps) => {
 
                 {/* Button */}
                 <Link
-                    href={`/books/${book.bookId}`}
+                    href={`${process.env.NEXT_PUBLIC_SERVER_BASE_URL}/books/${book.bookId}`}
                     className="flex w-full items-center justify-center gap-2 rounded-xl bg-green-600 py-3 font-semibold text-white transition hover:bg-green-700"
                 >
                     View Details

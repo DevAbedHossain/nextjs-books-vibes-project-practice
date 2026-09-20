@@ -90,7 +90,7 @@ const ReadBooksCard = ({ book }: ReadBooksCardProms) => {
 
                         {/* Details Button */}
                         <Link
-                            href={`/books/${book.bookId}`}
+                            href={`${process.env.NEXT_PUBLIC_SERVER_BASE_URL}/books/${book.bookId}`}
                             className="rounded-full bg-green-600 px-5 py-2 text-sm font-semibold text-white transition hover:bg-green-700"
                         >
                             View Details

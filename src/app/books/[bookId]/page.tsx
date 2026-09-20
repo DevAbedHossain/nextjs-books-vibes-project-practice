@@ -38,7 +38,7 @@ const BookDetailsPage = async ({ params }: BookDetailsProms) => {
                 {/* Breadcrumb */}
                 <div className="mb-8 flex items-center gap-2 text-sm text-gray-500">
                     <Link
-                        href="/"
+                        href={`${process.env.NEXT_PUBLIC_SERVER_BASE_URL}`}
                         className="transition hover:text-green-600"
                     >
                         Home
@@ -47,7 +47,7 @@ const BookDetailsPage = async ({ params }: BookDetailsProms) => {
                     <span>/</span>
 
                     <Link
-                        href="/books"
+                        href={`${process.env.NEXT_PUBLIC_SERVER_BASE_URL}/books`}
                         className="transition hover:text-green-600"
                     >
                         Books

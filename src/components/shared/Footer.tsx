@@ -19,7 +19,7 @@ const Footer = () => {
                     <div className="lg:col-span-1">
 
                         <Link
-                            href="/"
+                            href={`${process.env.NEXT_PUBLIC_SERVER_BASE_URL}`}
                             className="text-2xl font-bold tracking-tight"
                         >
                             Book<span className="text-green-400">Nest</span>
@@ -75,7 +75,7 @@ const Footer = () => {
 
                             <li>
                                 <Link
-                                    href="/"
+                                    href="#"
                                     className="transition hover:text-green-400"
                                 >
                                     Home
@@ -84,7 +84,7 @@ const Footer = () => {
 
                             <li>
                                 <Link
-                                    href="/books"
+                                    href="#"
                                     className="transition hover:text-green-400"
                                 >
                                     All Books
@@ -93,7 +93,7 @@ const Footer = () => {
 
                             <li>
                                 <Link
-                                    href="/categories"
+                                    href="#"
                                     className="transition hover:text-green-400"
                                 >
                                     Categories
@@ -102,7 +102,7 @@ const Footer = () => {
 
                             <li>
                                 <Link
-                                    href="/about"
+                                    href="#"
                                     className="transition hover:text-green-400"
                                 >
                                     About Us
@@ -111,7 +111,7 @@ const Footer = () => {
 
                             <li>
                                 <Link
-                                    href="/contact"
+                                    href="#"
                                     className="transition hover:text-green-400"
                                 >
                                     Contact
