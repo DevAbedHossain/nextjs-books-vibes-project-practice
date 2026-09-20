@@ -5,10 +5,10 @@ import Link from 'next/link';
 const Navbar = () => {
 
     const links = <>
-        <li><Link href="">Home</Link></li>
-        <li><Link href="/books">Books</Link></li>
-        <li><Link href="/listed-books">Listed Books</Link></li>
-        <li><Link href="/page-to-read">Pages to Read</Link></li>
+        <li><Link href={`${process.env.NEXT_PUBLIC_SERVER_BASE_URL}`}>Home</Link></li>
+        <li><Link href={`${process.env.NEXT_PUBLIC_SERVER_BASE_URL}/books`}>Books</Link></li>
+        <li><Link href={`${process.env.NEXT_PUBLIC_SERVER_BASE_URL}/listed-books`}>Listed Books</Link></li>
+        <li><Link href={`${process.env.NEXT_PUBLIC_SERVER_BASE_URL}/page-to-read`}>Pages to Read</Link></li>
     </>
 
     return (
