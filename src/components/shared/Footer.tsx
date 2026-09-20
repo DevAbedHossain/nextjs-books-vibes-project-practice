@@ -131,7 +131,7 @@ const Footer = () => {
 
                             <li>
                                 <Link
-                                    href="/books?category=fiction"
+                                    href="#"
                                     className="transition hover:text-green-400"
                                 >
                                     Fiction
@@ -140,7 +140,7 @@ const Footer = () => {
 
                             <li>
                                 <Link
-                                    href="/books?category=romance"
+                                    href="#"
                                     className="transition hover:text-green-400"
                                 >
                                     Romance
@@ -149,7 +149,7 @@ const Footer = () => {
 
                             <li>
                                 <Link
-                                    href="/books?category=classic"
+                                    href="#"
                                     className="transition hover:text-green-400"
                                 >
                                     Classic
@@ -158,7 +158,7 @@ const Footer = () => {
 
                             <li>
                                 <Link
-                                    href="/books?category=mystery"
+                                    href="#"
                                     className="transition hover:text-green-400"
                                 >
                                     Mystery
@@ -167,7 +167,7 @@ const Footer = () => {
 
                             <li>
                                 <Link
-                                    href="/books?category=science"
+                                    href="#"
                                     className="transition hover:text-green-400"
                                 >
                                     Science
@@ -218,14 +218,14 @@ const Footer = () => {
                     <div className="flex gap-6">
 
                         <Link
-                            href="/privacy"
+                            href="#"
                             className="transition hover:text-green-400"
                         >
                             Privacy Policy
                         </Link>
 
                         <Link
-                            href="/terms"
+                            href="#"
                             className="transition hover:text-green-400"
                         >
                             Terms & Conditions
